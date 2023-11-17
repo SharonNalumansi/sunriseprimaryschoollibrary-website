@@ -1,0 +1,100 @@
+body {
+	background-repeat: no-repeat;
+	background-size:1300px 500px;
+}
+.mobile-container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #555;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+.topnav a {
+  float: right;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+			footer {
+		left: 0;
+		bottom: 0;
+		width: 1200px;
+		background-color: grey;
+		color: white;
+		text-align: center;
+		}
+	h2 {
+	font-size:30px;}
+		form.example input[type=text] {
+			padding: 10px;
+			font-size: 17px;
+			boder: 1px solid grey;
+			float: left;
+			width: 80%;
+			background: #f1f1f1;
+			}
+		form.example button {
+			float: left;
+			width: 10%;
+			padding: 10px;
+			background: grey;
+			color: white;
+			font-size: 17px;
+			border: 1px solid grey;
+			border-left: none;
+			cursor: pointer;
+			}
+		form.example button:hover {
+			background: red;
+			}
+		form.example::after {
+			content: "";
+			clear: both;
+			display: table;
+			}
+	.fa {
+	font-size: 20px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	}
+		.fa:hover {
+		opacity:7;
+		}
+			.fa-facebook {
+			background: #3B5998;
+			color: white;
+			padding: 20px;
+			}
+				.fa-google {
+				background: #007bb5;
+				color: white;
+				padding: 20px;
+				}
+					.fa-instagram {
+					background: #125688;
+					color: white;
+					padding: 20px;
+					}

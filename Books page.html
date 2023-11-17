@@ -1,0 +1,122 @@
+<DOCTYPE HTML>
+<HTML>
+	<head>
+		<link type = "text/css" href ="mystyle.CSS" rel="stylesheet">
+		<link type = "text/css" href ="book.css" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/0fda8e0159.js" crossorigin="anonymous"></script>
+		
+	</head>
+				<body bgcolor="blue">
+	<div class="mobile-container">
+
+		<div class="topnav">
+  <div>
+    <a href="file:///C:/Users/user/Desktop/group1e.com/Home%20page.html">HOME</a>
+    <a href="#contact">NEWS</a>
+    <a href="file:///C:/Users/user/Desktop/group1e.com/About%20Us.html">ABOUT</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+		</div>
+		<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+<h1><b>SUNRISE PRIMARY SCHOOL LIBRARY</b></h1>
+	<img src="images/logo.JPG" height="150" width="200"><br><br>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="images/reading.JPG" style="width:100%;height:90%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/books.jpg" style="width:100%;height:90%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/New Curriculum.jpg" style="width:100%; height:90%">
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<div class="background">
+			<div class="transbox">
+			<h2><center>LIBRARY BOOK COLLECTION</center></h2>
+			<p></p>
+			</div>
+			</div>
+				<table style="width:50%" align="center">
+					<th>MATH</th>
+					<th>SST</th>
+					<th>SCIENCE</th>
+					<th>ENGLISH</th>
+						<tr>
+							<td><img src="images/math.JPG" height="150" width="200"></td>
+							<td><img src="images/SST.JPG" height="150" width="200"></td>
+							<td><img src="images/SCIENCE.JPG" height="150" width="200"></td>
+							<td><img src="images/ENG.JPG" height="150" width="200"></td>
+						</tr>
+					<th><br>CRE</th>
+					<th><br>AGRICULTURE</th>
+					<th><br>ATLAS</th>
+					<th><br>LITERACY</th>
+						<tr>
+							<td><img src="images/CRE.PNG" height="150" width="200"></td>
+							<td><img src="images/AGRIC.JPG" height="150" width="200"></td>
+							<td><img src="images/ATLAS.JPG" height="150" width="200"></td>
+							<td><img src="images/LITERACY.JPG" height="150" width="200"></td>
+						</tr>
+						
+				</table>
+<footer> 
+				<h2 style="color:red"><b>Author: GROUP 1E</b></h2>
+				<br>
+				<p style="color:black;"><b>CONTACT US</b></p>
+				<br><p>NALUMANSI SHARON KAWEESA
+				<a
+				href="mailto:sharonnalumansi55@gmail.com">sharonnalumansi55@gmail.com <br></a></p><br>
+				AHABWE LUCKY
+				<a
+				href="mailto:ahabwelucky18@gmail.com">ahabwelucky18@gmail.com <br></a></p><br>
+				WAMALA MICHAEL
+				<a
+				href="mailto:michaelwamala@gmail.com">michaelwamala@gmail.com <br></a></p><br>
+				<p style="color:red;"><b>CONTACTS</b></p><p>+256740849229<br>+256776517593<br>+256726569179</p><br><br>
+			</footer>
+			
+		
+		</body>
+</HTML>
